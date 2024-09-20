@@ -1,0 +1,9 @@
+def cuadrado():
+  ancho=input("ELIGE ANCHURA DEL CUADRADO: ")
+  alto=input("ELIGE ALTURA DEL CUADRADO: ")
+  print("Has elegido la tabla del "+ alto)
+  for cont in range(1,11):
+    print("*" * str(cont) + str(int(alto)*cont))
+  
+
+cuadrado()
